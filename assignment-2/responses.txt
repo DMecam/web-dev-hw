@@ -1,0 +1,18 @@
+### Briefly describe one way how data travels on the internet.
+
+All the data that travels on the internet is divided into bits of information, and the device that is receiving this information assembly it again. Each part travel through the fastest way (it doesn’t have to be the same) in order to arrive at its destination in the less time possible.
+
+### What is the relationship between IP address and the DNS?
+
+The IP is a series of numbers that are the address of a computer and the DNS is the system that links this address with a domain name on the Internet.
+
+### What is a cookie?
+
+A cookie is a number that identifies the user when she is using a server or website on the Internet. When the user requests information from a server and the cookies are attached to the request, the server will automatically recognize the user. It works like an identification card.
+
+### List the the three basic parts of an URL.
+
+The three basic parts of an URL are:
++ Protocol
++ Domain name
++ Path
