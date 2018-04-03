@@ -54,15 +54,97 @@
     ol {
       color: #2d8653;
     }
+    label{
+      color: #20603b;
+    }
+    fieldset {
+      color: #20603b;
+    }
+    legend {
+      color: #20603b;
+    }
   </style>
 </head>
 
 <body>
   <nav>
     <ul id="navigation-bar" class="list">
-      <li class="navigation-list"><a href="./pages/about.html">About</a></li>
+      <li class="navigation-list"><a href="./about.html">About</a></li>
       <li class="navigation-list"><a href="../index.html">Home</a></li>
     </ul>
   </nav>
+
+  <div class="basic-text" id="contact-page-top">
+    <h1>Contact</h1>
+    <p>Please fill the following form to write a review or ask any questions.</p>
+  </div><!--End of contact-page-top-->
+
+<hr/>
+<div class="basic-text" id="login-contact-form">
+<form>
+  <fieldset>
+    <legend><h2>Login</h2></legend>
+    <label>Username:<br/>
+      <input type="text" name="email" />
+    </label><br/>
+    <label>Password:</label><br/>
+      <input type="password" name="password" />
+  </fieldset>
+</form>
+</div><!--Ed of login-contact-form-->
+
+<hr/>
+<div class="basic-text" id="details-contact-form">
+<form action="#" method="post">
+  <fieldset>
+     <legend><h2>Details</h2></legend>
+     <label>Email:<br/>
+        <input type="text" name="email" />
+      </label>
+     <br/>
+     <label>Name:<br/>
+        <input type="text" name="name" />
+      </label>
+  </fieldset>
+</form>
+</div><!--End of details-contact-form-->
+
+<hr/>
+<div class="basic-text" id="coments-contact-form">
+  <form action="#" method="post">
+  <fieldset>
+    <legend><h2>Comments</h2></legend>
+    <label> Comments and questions:<br/>
+     <textarea name="comments" id="test-textarea" cols="80" rows="8">Write your comment...</textarea>
+   </label>
+  </fieldset>
+</form>
+</div><!--End of comments-contact-form-->
+
+<hr/>
+<div class="basic-text" id="questions-contact-form">
+  <form action="#" method="post">
+    <fieldset>
+      <legend><h2>Questions</h2></legend>
+      <label>Type of message:<br/>
+        <input type="checkbox" name="type-message" value="comment" /> Comment
+        <input type="checkbox" name="type-message" value="ask" /> Ask
+        <input type="checkbox" name="type-message" value="other" /> Other
+      </label>
+      <br/>
+      <label>Did you have problems installing <cite>Sea of Thieves </cite>?<br/>
+        <input type="radio" name="problems" value="yes" /> Yes
+        <input type="radio" name="problems" value="no" /> No
+      </label>
+    </fieldset>
+  </form>
+</div><!--End of questions-contact-form-->
+
+<hr/>
+<div class="basic-text" id="submit-contact-form">
+  <form action="#" method="post">
+    <input type="submit" name="submit-form" value="Submit" />
+  </form>
+</div><!--End of submit-contact-form-->
 </body>
 </html>
