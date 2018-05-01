@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../fonts/Inconsolata-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../fonts/Inconsolata-Bold.ttf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('../fonts/WorkSans-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('../fonts/WorkSans-Bold.ttf') format('opentype');
+  font-weight: bold;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('../fonts/WorkSans-Light.ttf') format('opentype');
+  font-weight: 300;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('../fonts/WorkSans-Medium.ttf') format('opentype');
+  font-weight: 500;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('../fonts/WorkSans-SemiBold.ttf') format('opentype');
+  font-weight: 600;
+  font-size: normal;
+}

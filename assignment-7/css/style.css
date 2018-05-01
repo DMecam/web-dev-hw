@@ -1,0 +1,104 @@
+*{
+  font-family: 'WorkSans', 'Montserrat', sans-serif;
+  background-color: rgb(75, 91, 105);
+  text-align: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+p {
+  background-color: rgb(220, 227, 233);
+  padding: 20px;
+  line-height: 140%;
+  text-align: left;
+}
+
+p::first-letter {
+  color: rgb(99, 106, 126);
+  font-size: 1.5em;
+}
+
+h1, h2 {
+  font-family: 'Inconsolata', 'Space Mono', monospace;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: rgb(46, 49, 56);
+  background-color: rgb(46, 49, 56);
+}
+
+button {
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  font-weight: regular;
+  background-color: rgb(46, 49, 56);;
+  border-color: #9da0ac #353c45 #353c45 #9da0ac;
+  border-width: 5px 5px 5px 5px;
+  border-style: solid;
+  position: relative;
+  margin: auto;
+  top: 0.75em;
+  bottom: 0.75em;
+  padding: 0.5em;
+  width: 9em;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'WorkSans', 'Montserrat', sans-serif;
+  margin-bottom: 5%;
+}
+
+
+a{
+  font-family: 'WorkSans', 'Montserrat', sans-serif;
+
+}
+button:link {
+    color: #ffffff;
+}
+
+/* visited link */
+button:visited {
+    color: #51545c;
+}
+
+/* mouse over link */
+button:hover {
+    color: #999cb1;
+}
+
+/* selected link */
+button:active {
+    color: #353c45;
+}
+
+.intro {
+  background-color: rgb(46, 49, 56);
+  padding: 10px;
+}
+
+.intro>h2 {
+  color: rgb(149, 160, 172);
+}
+
+.intro-title {
+  padding: 1px;
+  background-color: rgb(68, 70, 79);
+  border: 5px solid rgb(117, 120, 125);
+}
+
+.intro-title>h1 {
+  background-color: rgb(68, 70, 79);
+  color: rgb(254, 254, 255);
+}
+
+hr{
+  color: rgb(232, 232, 232);
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
