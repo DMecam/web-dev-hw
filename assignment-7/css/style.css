@@ -70,6 +70,7 @@ button:hover {
 /* selected link */
 button:active {
     color: #353c45;
+    border-color: #353c45 #9da0ac #9da0ac #353c45;
 }
 
 .intro {
